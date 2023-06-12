@@ -12,6 +12,10 @@ Maize, one of the most important cereal crops worldwide, is vulnerable to variou
 
 The proof-of-concept model leverages the power of **deep learning** to automate the identification process. The **TensorFlow framework**, with its extensive ecosystem of tools and libraries, provides a solid foundation for developing and training the disease classification model. By using **convolutional neural networks (CNNs)**, the model can effectively learn and extract relevant features from maize leaf images, enabling accurate disease classification.
 
+This proof-of-concept is used in a data science class to explain different CNN archictecures - especifically the ResNet architecture. As such, it contains no pre-trained models, as well as basic ML techniques such as train-test-validation splitting. It was specifically created to showcase the differences when working with image datasets, as well as the difference between in-memory data (such as NumPy arrays) and cached datasets (such as Tensorflow datasets).
+
+Even though precision was not a key goal in the construction of this model, it achieved 98% accuracy using 3 residual units and a 1cycle learning schedule.
+
 ## Dataset
 
 The dataset used in this project is the **Nelson Mandela African Institution of Science and Technology Maize dataset**. The dataset was contributed by researchers from the Nelson Mandela African Institution of Science and Technology, namely Neema Mduma, Hudson Laizer, Loyani Loyani, and Sophia Sanga. Additionally, researchers from the Tanzania Agricultural Research Institute (TARI), including Mbwana Macheli, Zablon Msengi, Alice Karama, and Irine Msaki, were also involved in the dataset creation.
